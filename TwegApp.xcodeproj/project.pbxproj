@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF00E6822A11DC8007DC1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E6722A11DC8007DC1EF /* AppDelegate.swift */; };
+		CDF00E6A22A11DC8007DC1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E6922A11DC8007DC1EF /* ViewController.swift */; };
+		CDF00E6D22A11DC8007DC1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E6B22A11DC8007DC1EF /* Main.storyboard */; };
+		CDF00E6F22A11DC9007DC1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E6E22A11DC9007DC1EF /* Assets.xcassets */; };
+		CDF00E7222A11DC9007DC1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E7022A11DC9007DC1EF /* LaunchScreen.storyboard */; };
+		CDF00E7D22A11DC9007DC1EF /* TwegAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF00E7922A11DC9007DC1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF00E5C22A11DC8007DC1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF00E6322A11DC8007DC1EF;
+			remoteInfo = TwegApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDF00E6422A11DC8007DC1EF /* TwegApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwegApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF00E6722A11DC8007DC1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF00E6922A11DC8007DC1EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDF00E6C22A11DC8007DC1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF00E6E22A11DC9007DC1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF00E7122A11DC9007DC1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF00E7322A11DC9007DC1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF00E7822A11DC9007DC1EF /* TwegAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwegAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwegAppTests.swift; sourceTree = "<group>"; };
+		CDF00E7E22A11DC9007DC1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF00E6122A11DC8007DC1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF00E7522A11DC9007DC1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF00E5B22A11DC8007DC1EF = {
+			isa = PBXGroup;
+			children = (
+				CDF00E6622A11DC8007DC1EF /* TwegApp */,
+				CDF00E7B22A11DC9007DC1EF /* TwegAppTests */,
+				CDF00E6522A11DC8007DC1EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF00E6522A11DC8007DC1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF00E6422A11DC8007DC1EF /* TwegApp.app */,
+				CDF00E7822A11DC9007DC1EF /* TwegAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF00E6622A11DC8007DC1EF /* TwegApp */ = {
+			isa = PBXGroup;
+			children = (
+				CDF00E6722A11DC8007DC1EF /* AppDelegate.swift */,
+				CDF00E6922A11DC8007DC1EF /* ViewController.swift */,
+				CDF00E6B22A11DC8007DC1EF /* Main.storyboard */,
+				CDF00E6E22A11DC9007DC1EF /* Assets.xcassets */,
+				CDF00E7022A11DC9007DC1EF /* LaunchScreen.storyboard */,
+				CDF00E7322A11DC9007DC1EF /* Info.plist */,
+			);
+			path = TwegApp;
+			sourceTree = "<group>";
+		};
+		CDF00E7B22A11DC9007DC1EF /* TwegAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */,
+				CDF00E7E22A11DC9007DC1EF /* Info.plist */,
+			);
+			path = TwegAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF00E6322A11DC8007DC1EF /* TwegApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF00E8122A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegApp" */;
+			buildPhases = (
+				CDF00E6022A11DC8007DC1EF /* Sources */,
+				CDF00E6122A11DC8007DC1EF /* Frameworks */,
+				CDF00E6222A11DC8007DC1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwegApp;
+			productName = TwegApp;
+			productReference = CDF00E6422A11DC8007DC1EF /* TwegApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF00E7722A11DC9007DC1EF /* TwegAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF00E8422A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegAppTests" */;
+			buildPhases = (
+				CDF00E7422A11DC9007DC1EF /* Sources */,
+				CDF00E7522A11DC9007DC1EF /* Frameworks */,
+				CDF00E7622A11DC9007DC1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF00E7A22A11DC9007DC1EF /* PBXTargetDependency */,
+			);
+			name = TwegAppTests;
+			productName = TwegAppTests;
+			productReference = CDF00E7822A11DC9007DC1EF /* TwegAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF00E5C22A11DC8007DC1EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Erric Alfajri";
+				TargetAttributes = {
+					CDF00E6322A11DC8007DC1EF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDF00E7722A11DC9007DC1EF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDF00E6322A11DC8007DC1EF;
+					};
+				};
+			};
+			buildConfigurationList = CDF00E5F22A11DC8007DC1EF /* Build configuration list for PBXProject "TwegApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF00E5B22A11DC8007DC1EF;
+			productRefGroup = CDF00E6522A11DC8007DC1EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF00E6322A11DC8007DC1EF /* TwegApp */,
+				CDF00E7722A11DC9007DC1EF /* TwegAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF00E6222A11DC8007DC1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF00E7222A11DC9007DC1EF /* LaunchScreen.storyboard in Resources */,
+				CDF00E6F22A11DC9007DC1EF /* Assets.xcassets in Resources */,
+				CDF00E6D22A11DC8007DC1EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF00E7622A11DC9007DC1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF00E6022A11DC8007DC1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF00E6A22A11DC8007DC1EF /* ViewController.swift in Sources */,
+				CDF00E6822A11DC8007DC1EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF00E7422A11DC9007DC1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF00E7D22A11DC9007DC1EF /* TwegAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF00E7A22A11DC9007DC1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF00E6322A11DC8007DC1EF /* TwegApp */;
+			targetProxy = CDF00E7922A11DC9007DC1EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF00E6B22A11DC8007DC1EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF00E6C22A11DC8007DC1EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF00E7022A11DC9007DC1EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF00E7122A11DC9007DC1EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF00E7F22A11DC9007DC1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF00E8022A11DC9007DC1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF00E8222A11DC9007DC1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwegApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF00E8322A11DC9007DC1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwegApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDF00E8522A11DC9007DC1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwegAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwegApp.app/TwegApp";
+			};
+			name = Debug;
+		};
+		CDF00E8622A11DC9007DC1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwegAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwegApp.app/TwegApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF00E5F22A11DC8007DC1EF /* Build configuration list for PBXProject "TwegApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF00E7F22A11DC9007DC1EF /* Debug */,
+				CDF00E8022A11DC9007DC1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF00E8122A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF00E8222A11DC9007DC1EF /* Debug */,
+				CDF00E8322A11DC9007DC1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF00E8422A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF00E8522A11DC9007DC1EF /* Debug */,
+				CDF00E8622A11DC9007DC1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF00E5C22A11DC8007DC1EF /* Project object */;
+}
