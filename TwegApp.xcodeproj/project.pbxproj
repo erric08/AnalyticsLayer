@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDABA55722AD2F4D00D7B63C /* MoengageAnalyticsServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABA55622AD2F4D00D7B63C /* MoengageAnalyticsServiceTest.swift */; };
 		CDF00E6822A11DC8007DC1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E6722A11DC8007DC1EF /* AppDelegate.swift */; };
 		CDF00E6A22A11DC8007DC1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E6922A11DC8007DC1EF /* ViewController.swift */; };
 		CDF00E6D22A11DC8007DC1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E6B22A11DC8007DC1EF /* Main.storyboard */; };
 		CDF00E6F22A11DC9007DC1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E6E22A11DC9007DC1EF /* Assets.xcassets */; };
 		CDF00E7222A11DC9007DC1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF00E7022A11DC9007DC1EF /* LaunchScreen.storyboard */; };
 		CDF00E7D22A11DC9007DC1EF /* TwegAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */; };
+		CDF00E9222A12141007DC1EF /* AnalyticsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8822A12141007DC1EF /* AnalyticsUtil.swift */; };
+		CDF00E9322A12141007DC1EF /* AnalyitcsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8922A12141007DC1EF /* AnalyitcsService.swift */; };
+		CDF00E9422A12141007DC1EF /* AnalyticsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8A22A12141007DC1EF /* AnalyticsConstant.swift */; };
+		CDF00E9522A12141007DC1EF /* SiburungAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8C22A12141007DC1EF /* SiburungAnalyticsService.swift */; };
+		CDF00E9622A12141007DC1EF /* AdjustAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8D22A12141007DC1EF /* AdjustAnalyticsService.swift */; };
+		CDF00E9722A12141007DC1EF /* MoengageAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8E22A12141007DC1EF /* MoengageAnalyticsService.swift */; };
+		CDF00E9822A12141007DC1EF /* FacebookAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E8F22A12141007DC1EF /* FacebookAnalyticsService.swift */; };
+		CDF00E9922A12141007DC1EF /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E9022A12141007DC1EF /* AnalyticsEvent.swift */; };
+		CDF00E9A22A12141007DC1EF /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00E9122A12141007DC1EF /* AnalyticsManager.swift */; };
+		CDF00ED722A14E82007DC1EF /* AnalyticsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00ED622A14E82007DC1EF /* AnalyticsTest.swift */; };
+		CDF00EDF22A1552B007DC1EF /* AnalyticsFacebookParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00EDE22A1552B007DC1EF /* AnalyticsFacebookParameter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059CAD9A38147214C4BF3695 /* Pods-TwegAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwegAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TwegAppTests/Pods-TwegAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BA1AC1DA9784BFC0F0D15EE /* Pods-TwegAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwegAppTests.release.xcconfig"; path = "Target Support Files/Pods-TwegAppTests/Pods-TwegAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BF4EB3DAF60A32CE078031C /* Pods-TwegApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwegApp.release.xcconfig"; path = "Target Support Files/Pods-TwegApp/Pods-TwegApp.release.xcconfig"; sourceTree = "<group>"; };
+		A6E91091B59B2C2DA20D7AF9 /* Pods-TwegApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwegApp.debug.xcconfig"; path = "Target Support Files/Pods-TwegApp/Pods-TwegApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CDABA55622AD2F4D00D7B63C /* MoengageAnalyticsServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoengageAnalyticsServiceTest.swift; sourceTree = "<group>"; };
 		CDF00E6422A11DC8007DC1EF /* TwegApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwegApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF00E6722A11DC8007DC1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF00E6922A11DC8007DC1EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +53,17 @@
 		CDF00E7822A11DC9007DC1EF /* TwegAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwegAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwegAppTests.swift; sourceTree = "<group>"; };
 		CDF00E7E22A11DC9007DC1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF00E8822A12141007DC1EF /* AnalyticsUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsUtil.swift; sourceTree = "<group>"; };
+		CDF00E8922A12141007DC1EF /* AnalyitcsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyitcsService.swift; sourceTree = "<group>"; };
+		CDF00E8A22A12141007DC1EF /* AnalyticsConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsConstant.swift; sourceTree = "<group>"; };
+		CDF00E8C22A12141007DC1EF /* SiburungAnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiburungAnalyticsService.swift; sourceTree = "<group>"; };
+		CDF00E8D22A12141007DC1EF /* AdjustAnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustAnalyticsService.swift; sourceTree = "<group>"; };
+		CDF00E8E22A12141007DC1EF /* MoengageAnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoengageAnalyticsService.swift; sourceTree = "<group>"; };
+		CDF00E8F22A12141007DC1EF /* FacebookAnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAnalyticsService.swift; sourceTree = "<group>"; };
+		CDF00E9022A12141007DC1EF /* AnalyticsEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		CDF00E9122A12141007DC1EF /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		CDF00ED622A14E82007DC1EF /* AnalyticsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTest.swift; sourceTree = "<group>"; };
+		CDF00EDE22A1552B007DC1EF /* AnalyticsFacebookParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsFacebookParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3A135DE3583FAFBB852230 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6E91091B59B2C2DA20D7AF9 /* Pods-TwegApp.debug.xcconfig */,
+				6BF4EB3DAF60A32CE078031C /* Pods-TwegApp.release.xcconfig */,
+				059CAD9A38147214C4BF3695 /* Pods-TwegAppTests.debug.xcconfig */,
+				1BA1AC1DA9784BFC0F0D15EE /* Pods-TwegAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		743A8810BEAA09D6167C1EB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDF00E5B22A11DC8007DC1EF = {
 			isa = PBXGroup;
 			children = (
 				CDF00E6622A11DC8007DC1EF /* TwegApp */,
 				CDF00E7B22A11DC9007DC1EF /* TwegAppTests */,
 				CDF00E6522A11DC8007DC1EF /* Products */,
+				0F3A135DE3583FAFBB852230 /* Pods */,
+				743A8810BEAA09D6167C1EB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +131,7 @@
 				CDF00E6E22A11DC9007DC1EF /* Assets.xcassets */,
 				CDF00E7022A11DC9007DC1EF /* LaunchScreen.storyboard */,
 				CDF00E7322A11DC9007DC1EF /* Info.plist */,
+				CDF00E8722A12141007DC1EF /* Manager */,
 			);
 			path = TwegApp;
 			sourceTree = "<group>";
@@ -90,10 +139,37 @@
 		CDF00E7B22A11DC9007DC1EF /* TwegAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				CDF00ED622A14E82007DC1EF /* AnalyticsTest.swift */,
+				CDABA55622AD2F4D00D7B63C /* MoengageAnalyticsServiceTest.swift */,
 				CDF00E7C22A11DC9007DC1EF /* TwegAppTests.swift */,
 				CDF00E7E22A11DC9007DC1EF /* Info.plist */,
 			);
 			path = TwegAppTests;
+			sourceTree = "<group>";
+		};
+		CDF00E8722A12141007DC1EF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CDF00E9122A12141007DC1EF /* AnalyticsManager.swift */,
+				CDF00E8922A12141007DC1EF /* AnalyitcsService.swift */,
+				CDF00E8822A12141007DC1EF /* AnalyticsUtil.swift */,
+				CDF00E8A22A12141007DC1EF /* AnalyticsConstant.swift */,
+				CDF00E9022A12141007DC1EF /* AnalyticsEvent.swift */,
+				CDF00E8B22A12141007DC1EF /* SDK */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CDF00E8B22A12141007DC1EF /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDF00E8C22A12141007DC1EF /* SiburungAnalyticsService.swift */,
+				CDF00E8D22A12141007DC1EF /* AdjustAnalyticsService.swift */,
+				CDF00E8E22A12141007DC1EF /* MoengageAnalyticsService.swift */,
+				CDF00EDE22A1552B007DC1EF /* AnalyticsFacebookParameter.swift */,
+				CDF00E8F22A12141007DC1EF /* FacebookAnalyticsService.swift */,
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDF00E8122A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegApp" */;
 			buildPhases = (
+				2378C2C528F0F86DED27EC6E /* [CP] Check Pods Manifest.lock */,
 				CDF00E6022A11DC8007DC1EF /* Sources */,
 				CDF00E6122A11DC8007DC1EF /* Frameworks */,
 				CDF00E6222A11DC8007DC1EF /* Resources */,
+				D693AA1A03A208778E1CCA03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDF00E8422A11DC9007DC1EF /* Build configuration list for PBXNativeTarget "TwegAppTests" */;
 			buildPhases = (
+				3AF8DE1F4736DD7242FA4CBD /* [CP] Check Pods Manifest.lock */,
 				CDF00E7422A11DC9007DC1EF /* Sources */,
 				CDF00E7522A11DC9007DC1EF /* Frameworks */,
 				CDF00E7622A11DC9007DC1EF /* Resources */,
+				104E2ECEA18DBF2809A6FAC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,13 +272,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		104E2ECEA18DBF2809A6FAC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwegAppTests/Pods-TwegAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Cuckoo/Cuckoo.framework",
+				"${BUILT_PRODUCTS_DIR}/Fakery/Fakery.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/SpecLeaks/SpecLeaks.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cuckoo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fakery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpecLeaks.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwegAppTests/Pods-TwegAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2378C2C528F0F86DED27EC6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwegApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF8DE1F4736DD7242FA4CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwegAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D693AA1A03A208778E1CCA03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwegApp/Pods-TwegApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${PODS_ROOT}/MoEngage-iOS-SDK/MoEngage/MoEngage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwegApp/Pods-TwegApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDF00E6022A11DC8007DC1EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF00E9222A12141007DC1EF /* AnalyticsUtil.swift in Sources */,
 				CDF00E6A22A11DC8007DC1EF /* ViewController.swift in Sources */,
+				CDF00E9822A12141007DC1EF /* FacebookAnalyticsService.swift in Sources */,
+				CDF00E9322A12141007DC1EF /* AnalyitcsService.swift in Sources */,
+				CDF00EDF22A1552B007DC1EF /* AnalyticsFacebookParameter.swift in Sources */,
 				CDF00E6822A11DC8007DC1EF /* AppDelegate.swift in Sources */,
+				CDF00E9622A12141007DC1EF /* AdjustAnalyticsService.swift in Sources */,
+				CDF00E9722A12141007DC1EF /* MoengageAnalyticsService.swift in Sources */,
+				CDF00E9922A12141007DC1EF /* AnalyticsEvent.swift in Sources */,
+				CDF00E9A22A12141007DC1EF /* AnalyticsManager.swift in Sources */,
+				CDF00E9422A12141007DC1EF /* AnalyticsConstant.swift in Sources */,
+				CDF00E9522A12141007DC1EF /* SiburungAnalyticsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF00ED722A14E82007DC1EF /* AnalyticsTest.swift in Sources */,
+				CDABA55722AD2F4D00D7B63C /* MoengageAnalyticsServiceTest.swift in Sources */,
 				CDF00E7D22A11DC9007DC1EF /* TwegAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,13 +567,16 @@
 		};
 		CDF00E8222A11DC9007DC1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E91091B59B2C2DA20D7AF9 /* Pods-TwegApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H234B3HHZ5;
 				INFOPLIST_FILE = TwegApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Library/Frameworks/,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,13 +587,16 @@
 		};
 		CDF00E8322A11DC9007DC1EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF4EB3DAF60A32CE078031C /* Pods-TwegApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H234B3HHZ5;
 				INFOPLIST_FILE = TwegApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Library/Frameworks/,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eafajri.TwegApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,10 +607,12 @@
 		};
 		CDF00E8522A11DC9007DC1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059CAD9A38147214C4BF3695 /* Pods-TwegAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H234B3HHZ5;
 				INFOPLIST_FILE = TwegAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,10 +629,12 @@
 		};
 		CDF00E8622A11DC9007DC1EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA1AC1DA9784BFC0F0D15EE /* Pods-TwegAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H234B3HHZ5;
 				INFOPLIST_FILE = TwegAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

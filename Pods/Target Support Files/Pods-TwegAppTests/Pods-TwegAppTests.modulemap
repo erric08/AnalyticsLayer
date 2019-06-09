@@ -1,0 +1,6 @@
+framework module Pods_TwegAppTests {
+  umbrella header "Pods-TwegAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

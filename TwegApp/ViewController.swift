@@ -15,6 +15,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func trackPurchaseV2(_ sender: Any) {
+        let invoice = Common.Invoice()
+        AnalyticsManager.instance.trackPurchaseV2(invoice: invoice)
+    }
+    
+    @IBAction func trackPurchaseV4(_ sender: Any) {
+        let invoice = APIV4.Invoice()
+        let transactions = [Invoiceable()]
+        let invoiceTrackable = [InvoiceTrackable()]
 
+        AnalyticsManager.instance.trackPurchaseV4(invoice: invoice, transactions: transactions, invoiceTrackable: invoiceTrackable)
+    }
+    
+    @IBAction func trackFirstPurchase(_ sender: Any) {
+        AnalyticsManager.instance.trackFirstPurchase()
+    }
+    
 }
 

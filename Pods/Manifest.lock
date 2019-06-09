@@ -1,0 +1,69 @@
+PODS:
+  - Adjust (4.17.1):
+    - Adjust/Core (= 4.17.1)
+  - Adjust/Core (4.17.1)
+  - Alamofire (4.7.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Cuckoo (0.12.0)
+  - Fakery (3.4.0)
+  - FBSDKCoreKit (4.39.1):
+    - Bolts (~> 1.9)
+  - MoEngage-iOS-SDK (4.3.2)
+  - Nimble (8.0.1)
+  - ObjectMapper (3.4.2)
+  - Quick (2.1.0)
+  - SpecLeaks (0.1.8):
+    - Nimble
+    - Quick
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Adjust (= 4.17.1)
+  - Alamofire (= 4.7.1)
+  - Cuckoo (= 0.12.0)
+  - Fakery (= 3.4.0)
+  - FBSDKCoreKit (= 4.39.1)
+  - MoEngage-iOS-SDK (= 4.3.2)
+  - Nimble (= 8.0.1)
+  - ObjectMapper (= 3.4.2)
+  - Quick (= 2.1.0)
+  - SpecLeaks
+  - SwiftyJSON (= 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Adjust
+    - Alamofire
+    - Bolts
+    - Cuckoo
+    - Fakery
+    - FBSDKCoreKit
+    - MoEngage-iOS-SDK
+    - Nimble
+    - ObjectMapper
+    - Quick
+    - SpecLeaks
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Adjust: b1f2b0e0b426fa991d69ed7fc9de806cf6dff5a6
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cuckoo: d30b6c149e52ffbcfe6b4a9543e4627d08947274
+  Fakery: 885e894a3e7c392e1da96c6e46a1abe5a0b28686
+  FBSDKCoreKit: f442aa96179cc9b382bb4abeb7e340a47cca8f91
+  MoEngage-iOS-SDK: 98ef9bfeb731b82e9ef4efe558ec43a393fd1dbc
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  SpecLeaks: 0fa048f06b1adb36d8d3e86e039b5f67bf74bb06
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 6429254f56e359e27066fb12f306429db4cd6202
+
+COCOAPODS: 1.6.1
